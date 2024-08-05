@@ -1,0 +1,25 @@
+CURSO PYTHON ORIENTAÇÃO A OBJETOS
+
+*Fsymbols = Para editar em Strings ( Personalizar entre outras coisas )
+*Lembrei do print(f"{opcao_escolhida}") e do print("{}".format(opcao_escolhida) tem 
+também print("%" %(opcao_escolhida)
+*Isolar determinado comportamento em um bloco de código
+*
+Limpar o terminal import os ( Dentro da minha função utilizo o os.system('cls') para windons e os.system('clear')
+
+******************************************|
+* print(opcao_escolhida == 1) retona False|
+* print(type(opcao_escolhida)) class"str" |
+* print(type(1)) class"int"               |
+******************************************|
+
+*UM PONTO IMPORTANTE TODO RESTAURANTE QUE ESTA CADASTRADO ELE NÃO ESTA ATIVO ATÉ A APROVAÇÃO, ISTO É UMA REGRA DE NEGÓCIO
+*LEMBRA QUANDO SE TRATA DE BACK-END VOCÊ ESTA LIDANDO COM REGRAS DE NEGÓCIOS
+*LEMBRA POR PADRÃO A VARIÁVEL NÃO DEFINIDA, SE TRANSFORMA EM UMA STRING
+
+      OLHA O CÓDIGO NA FUNÇÃO cadastrar_restaurantes
+*********************************************************|
+*Adicionar a variável a lista e dicionário com o append()|
+*restaurantes.append(nome_do_restaurante)                |
+restaurantes.append(dados_do_restaurante)                |
+*********************************************************|
